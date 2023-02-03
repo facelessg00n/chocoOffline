@@ -147,8 +147,11 @@ The GUI also needs these dependencies which we obtained in a previous step. In a
 `Set-Location C:\choco-setup\packages`
 
 `choco install .\chocolatey-compatibility.extension.1.0.0.nupkg`
+
 `choco install .\chocolatey-core.extension.1.4.0.nupkg`
+
 `choco install .\DotNet4.6.1.4.6.01055.20170308.nupkg -y`
+
 `choco install .\DotNet4.6.4.6.00081.20150925.nupkg -y`
 
 `choco install .\dotnetfx.4.8.1.0-rtw.nupkg -y`
@@ -159,7 +162,9 @@ The GUI also needs these dependencies which we obtained in a previous step. In a
 
 Reboot the machine to complete the installation of the previous dependencies.
 You will now then be able to setup the GUI
+
  `Set-Location C:\choco-setup\packages`
+
 `choco install .\ChocolateyGUI.1.1.0.nupkg -y`
 
 ----
